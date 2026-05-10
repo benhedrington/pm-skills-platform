@@ -50,6 +50,9 @@ A Claude Code-native workflow for curating, versioning, and distributing PM skil
 ├── templates/
 │   └── skill-template.md
 ├── ARCHITECTURE.md            ← Full spec
+├── docs/
+│   ├── GETTING-STARTED.md       ← First-day guide
+│   └── IMPORTING-EXTERNAL-SKILLS.md
 └── README.md                  ← This file
 ```
 
@@ -81,6 +84,8 @@ This interactively asks for:
 Done. That is the entire installation.
 
 ## Quick Start
+
+For a full walkthrough, read `docs/GETTING-STARTED.md`. The tl;dr:
 
 1. `/pm-skills-init` — scaffold and configure
 2. `/pm-skills-new my-skill` — create a draft in `dev/`
