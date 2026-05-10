@@ -1,0 +1,38 @@
+# Built packages (always regenerate from live/)
+packages/*/
+!packages/.gitkeep
+
+# Output folder (can be inside or outside repo)
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+
+# Test artifacts (these are created during init, not in the repo itself)
+# pm-skills-gold/   # user creates this outside the repo typically
